@@ -1,0 +1,78 @@
+<!-- <p>textcomponent workssss! {{text}}</p> -->
+<!-- <img [src]="imgURL" alt=""> -->
+
+
+<!-- <p>{{isDisabled}}</p> -->
+<!-- 
+
+<button disabled="{{isDisabled}}"> string into</button>
+
+<button [disabled]="isDisabled">property binding</button>
+
+
+
+<button [class.active]="isActive" [class.no-active]="!isActive">Active</button> -->
+
+
+
+<!-- <button (click)="buttonClick()">click</button> -->
+
+<!-- <input type="text"  (keyup.enter)="keyEnter(user)" #user > -->
+
+<!-- two way data binding -->
+<!-- <input type="text" [(ngModel)]="userName" > -->
+
+<!-- old way -->
+
+<!-- <h1 *ngIf="isUser">{{userName}}</h1> -->
+
+<!-- new way -->
+<!-- @if(isUser){
+<h1>{{userName}}</h1>
+} -->
+<!-- 
+
+
+
+<button (click)="countLogin()" *ngIf="loginCount < 3" >Login</button>
+
+<h1 *ngIf="loginCount > 3">
+    more than 3 loign
+</h1> -->
+
+<!-- 
+<ng-template #callAction>
+    <p>this is a dynasmic code for action</p>
+    <button>test</button>
+</ng-template>
+
+
+<div [ngTemplateOutlet]="callAction">
+    <p>one</p>
+</div>
+<div [ngTemplateOutlet]="callAction">
+    <p>Two</p>
+</div>
+<div [ngTemplateOutlet]="callAction">
+    <p>Three</p>
+</div> -->
+
+
+<!-- <h1 *ngFor="let user of users">{{user}}</h1> -->
+
+<!-- <div *ngIf="userObj.length == 0">
+    <p>No user is available please add</p>
+</div> -->
+<!-- 
+@for (user of userObj; track user;let i = $index;let userCount = $count) {
+    <h1>{{userCount}} ,{{user.email}}</h1>
+    <button (click)="onDelete(i)">Delete {{user.name}}</button>
+}
+@empty {
+    <p>No user is available please add</p>
+
+}
+
+<br>
+<h1>Add user</h1>
+<button (click)="addUser()">add new</button> -->
